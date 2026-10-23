@@ -1,0 +1,102 @@
+
+/* COMPUTADOR                    */
+
+body {
+    margin: 100px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paint {
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 5px;
+    padding: 45px;
+}
+
+.sob {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.obs {
+    padding: 10px;
+}
+
+.caixa {
+    background-color: orange;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 5px;
+    padding: 45px;
+}
+
+.table {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+
+    margin-top: 15px;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+
+    .caixa {
+        background-color: orange;
+    }
+
+    body {
+        background-color: gray;
+    }
+
+    h1 {
+        color: gray;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    p {
+        color: gray;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+}
+
+
+/* CELULAR */
+
+@media (max-width: 580px) {
+
+    .caixa {
+        background-color: orange;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    h1 {
+        color: white;
+        background-color: orange;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    p {
+        color: white;
+        background-color: orange;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+}
